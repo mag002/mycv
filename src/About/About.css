@@ -1,0 +1,45 @@
+section#about {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 50px;
+}
+section#about h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #868e96;
+  margin-bottom: 50px;
+}
+section#about h1 {
+  font-size: 5em;
+  color: #343a40;
+  line-height: 1.25;
+}
+section#about h1 > span {
+  color: #4e7888;
+}
+section#about p {
+  color: #868e96;
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: all 0.5s;
+  align-items: center;
+  text-decoration: none;
+}
+.social-icon:hover {
+  background-color: #4e7888;
+}

@@ -1,0 +1,8 @@
+section.content-container{
+
+    width: 80%;
+}
+section.content-container>section{
+    height:100vh;
+    border-bottom: 1px solid lightgrey;
+}
