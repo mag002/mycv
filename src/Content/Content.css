@@ -5,4 +5,5 @@ section.content-container{
 section.content-container>section{
     height:100vh;
     border-bottom: 1px solid lightgrey;
+    padding:50px;
 }

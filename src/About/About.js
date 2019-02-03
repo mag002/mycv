@@ -3,7 +3,7 @@ import "./About.css";
 
 const SocialIcon = props => {
   return (
-    <a href={props.link} class="social-icon">
+    <a href={props.link} className="social-icon">
       <i className={"fa fa-" + props.type} />
     </a>
   );
@@ -19,7 +19,6 @@ const about = props => {
         <span>{props.about.email}</span>
       </h4>
       <p>{props.about.additional}</p>
-      {console.log(props.about)}
       <div className="social">
         <SocialIcon link={props.about.social.facebook} type="facebook" />
         <SocialIcon link={props.about.social.insta} type="instagram" />

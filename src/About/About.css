@@ -43,3 +43,9 @@ section#about p {
 .social-icon:hover {
   background-color: #4e7888;
 }
+h2.title{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 3.5rem;
+}

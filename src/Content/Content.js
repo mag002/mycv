@@ -9,7 +9,7 @@ const content = props => {
   return (
     <section className="content-container">
       <About id="about" about={props.state.about} />
-      <Exp id="exp" />
+      <Exp id="exp" exp={props.state.exp}/>
       <Interest id="edu" />
       <Skills id="skills" />
     </section>

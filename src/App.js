@@ -37,7 +37,7 @@ class App extends Component {
         Recognition and Gains:
         - Facebook Post increase 20% reach.`
       },
-      ex1: {
+      ex2: {
         company: "Kmin",
         position: "Front-end Developer",
         time: "Sep 2018 - Now",
