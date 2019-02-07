@@ -1,0 +1,8 @@
+section.contentContainer {
+  width: 80%;
+}
+section.contentContainer > section {
+  height: 100vh;
+  border-bottom: 1px solid lightgrey;
+  padding: 50px;
+}

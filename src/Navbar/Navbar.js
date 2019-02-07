@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import navbarCss from "./Navbar.module.css";
 import avatar from "../img/ashark.png";
 
 const NavAvatar = () => {
@@ -9,26 +9,26 @@ const NavAvatar = () => {
 const Item = props => {
   return (
     <li>
-      <a href={"#" + props.point}>{props.content}</a>
+      <a href={"#" + props.content}>{props.content}</a>
     </li>
   );
 };
 const NavbarList = props => {
   return (
     <ul>
-      <Item content="About" point="about" />
-      <Item content="Experience" point="exp" />
-      <Item content="Interest" point="int" />
-      <Item content="Skills" point="skills" />
+      <Item content={props.state.about.title} />
+      <Item content={props.state.experience.title} />
+      <Item content={props.state.interest.title} />
+      <Item content={props.state.skills.title} />
     </ul>
   );
 };
 const navbar = props => {
   return (
-    <nav>
-      <div className="container">
+    <nav className={navbarCss.nav}>
+      <div className={navbarCss.container}>
         <NavAvatar />
-        <NavbarList />
+        <NavbarList state={props.state} />
       </div>
     </nav>
   );

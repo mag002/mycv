@@ -6,7 +6,7 @@ import Content from "./Content/Content";
 class App extends Component {
   state = {
     about: {
-      text: "about",
+      title: "about",
       firstname: "Le",
       middlename: "Hong",
       lastname: "Phuc",
@@ -22,9 +22,9 @@ class App extends Component {
         youtube: "https://www.youtube.com/channel/UChJ2plecj0xOlXqMdviKoGA"
       }
     },
-    exp: {
+    experience: {
       title: "experience",
-      ex1: {
+      exp1: {
         company: "Hune",
         position: "Designer",
         time: "Mar 2018 - June 2018",
@@ -37,7 +37,7 @@ class App extends Component {
         Recognition and Gains:
         - Facebook Post increase 20% reach.`
       },
-      ex2: {
+      exp2: {
         company: "Kmin",
         position: "Front-end Developer",
         time: "Sep 2018 - Now",

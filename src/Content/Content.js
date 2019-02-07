@@ -1,17 +1,20 @@
 import React from "react";
-import "./Content.css";
+import contentCss from "./Content.module.css";
 import About from "../About/About";
-import Exp from "../Exp/Exp";
+import Experience from "../Exp/Exp";
 import Interest from "../Interest/Interest";
 import Skills from "../Skills/Skills";
 
 const content = props => {
   return (
-    <section className="content-container">
-      <About id="about" about={props.state.about} />
-      <Exp id="exp" exp={props.state.exp}/>
-      <Interest id="edu" />
-      <Skills id="skills" />
+    <section className={contentCss.contentContainer}>
+      <About id={props.state.about.title} about={props.state.about} />
+      <Experience
+        id={props.state.experience.title}
+        experience={props.state.experience}
+      />
+      <Interest id={props.state.interest.title} />
+      <Skills id={props.state.skills.title} />
     </section>
   );
 };

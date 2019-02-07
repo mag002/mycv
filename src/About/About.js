@@ -1,16 +1,16 @@
 import React from "react";
-import "./About.css";
+import aboutCss from "./About.module.css";
 
 const SocialIcon = props => {
   return (
-    <a href={props.link} className="social-icon">
+    <a href={props.link} className={aboutCss.socialIcon}>
       <i className={"fa fa-" + props.type} />
     </a>
   );
 };
 const about = props => {
   return (
-    <section id={props.id}>
+    <section id={props.about.title} className={aboutCss.about}>
       <h1>
         {props.about.lastname} <span>{props.about.firstname}</span>
       </h1>

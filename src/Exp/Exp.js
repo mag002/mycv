@@ -1,12 +1,11 @@
 import React from "react";
-import "./Exp.css"
-const exp = props => {
+import "./Exp.css";
+const experience = props => {
   return (
     <section id={props.id}>
-      <h2 className="title">{props.exp.title}</h2>
-     
+      <h2 className="title">{props.experience.title}</h2>
     </section>
   );
 };
 
-export default exp;
+export default experience;
