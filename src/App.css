@@ -1,10 +1,20 @@
-*{
-    margin:0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  box-sizing: border-box;
 }
-.App{
-    display: flex;
+.App {
+  display: flex;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Muli", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Saira Extra Condensed", sans-serif;
 }

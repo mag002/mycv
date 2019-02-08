@@ -1,0 +1,29 @@
+.job {
+  display: flex;
+}
+.job_date {
+  min-width: 18rem;
+  color: #204e5f;
+  font-weight: 600;
+  text-align: right;
+}
+.job_position {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #204e5f;
+}
+.job_company {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #868e96;
+}
+.job_detail {
+  color: #868e96;
+  font-size: 1.2rem;
+}
+.job {
+  margin-bottom: 3rem;
+}

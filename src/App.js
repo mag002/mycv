@@ -28,23 +28,23 @@ class App extends Component {
         company: "Hune",
         position: "Designer",
         time: "Mar 2018 - June 2018",
-        detail: `Main responsibilities:
-        - Design and upload Poster, Voucher, Advertising post via Facebook, Forum...
-        - Check and upgrade app UI.
-        - Assist to design Website. 
-        - Doing other tasks like sale, publishing a news item
+        detail: `
+        • Design and upload Poster, Voucher, Advertising post via Facebook, Forum...
+        • Check and upgrade app UI.
+        • Assist to design Website. 
+        • Doing other tasks like sale, publishing a news item
         
-        Recognition and Gains:
-        - Facebook Post increase 20% reach.`
+        
+        » Facebook Post increase 20% reach.`
       },
       exp2: {
         company: "Kmin",
         position: "Front-end Developer",
-        time: "Sep 2018 - Now",
-        detail: `Main responsibilities:
-        - Create web applications from visual designs.
-        - Monitor user behaviours and offer suggestions to improve UI/UX products.
-        - Assist to design Website. `
+        time: "Sep 2018 - Present",
+        detail: `
+        • Create web applications from visual designs.
+        • Monitor user behaviours and offer suggestions to improve UI/UX products.
+        • Assist to design Website. `
       }
     },
     skills: {

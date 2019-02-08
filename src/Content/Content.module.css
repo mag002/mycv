@@ -5,4 +5,13 @@ section.contentContainer > section {
   height: 100vh;
   border-bottom: 1px solid lightgrey;
   padding: 50px;
+  overflow: hidden;
+}
+.title {
+  font-size: 3.5rem;
+  color: #343a40;
+  line-height: 1.25;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
 }

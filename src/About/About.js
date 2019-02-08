@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import aboutCss from "./About.module.css";
 
 const SocialIcon = props => {
@@ -8,14 +9,14 @@ const SocialIcon = props => {
     </a>
   );
 };
-const about = props => {
+const About = props => {
   return (
     <section id={props.about.title} className={aboutCss.about}>
       <h1>
         {props.about.lastname} <span>{props.about.firstname}</span>
       </h1>
       <h4>
-        {props.about.address} <br /> {props.about.phone} -
+        {props.about.address} - {props.about.phone} -
         <span>{props.about.email}</span>
       </h4>
       <p>{props.about.additional}</p>
@@ -28,4 +29,19 @@ const about = props => {
   );
 };
 
-export default about;
+About.propTypes = {
+  about: propTypes.shape({
+    title: propTypes.string,
+    lastname: propTypes.string,
+    firstname: propTypes.string,
+    email: propTypes.string,
+    additional: propTypes.string,
+    social: propTypes.shape({
+      facebook: propTypes.string,
+      insta: propTypes.string,
+      youtube: propTypes.string
+    })
+  })
+};
+
+export default About;

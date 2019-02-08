@@ -38,3 +38,15 @@
 
   padding: 100px 0px;
 }
+.nav ul li a i {
+  display: none;
+}
+@media screen and (max-width: 996px) {
+  .nav ul li a i {
+    display: block;
+    margin: 20px 0px;
+  }
+  .nav ul li a span {
+    display: none;
+  }
+}

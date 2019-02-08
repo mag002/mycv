@@ -9,17 +9,21 @@ const NavAvatar = () => {
 const Item = props => {
   return (
     <li>
-      <a href={"#" + props.content}>{props.content}</a>
+      <a href={"#" + props.content}>
+        {" "}
+        <i className={"fa fa-" + props.icon} />
+        <span>{props.content}</span>
+      </a>
     </li>
   );
 };
 const NavbarList = props => {
   return (
     <ul>
-      <Item content={props.state.about.title} />
-      <Item content={props.state.experience.title} />
-      <Item content={props.state.interest.title} />
-      <Item content={props.state.skills.title} />
+      <Item content={props.state.about.title} icon="info" />
+      <Item content={props.state.experience.title} icon="briefcase" />
+      <Item content={props.state.interest.title} icon="heart" />
+      <Item content={props.state.skills.title} icon="code" />
     </ul>
   );
 };
