@@ -14,7 +14,7 @@ section.about h4 {
 section.about h1 {
   font-size: 6rem;
   color: #343a40;
-  line-height: 1.25;
+  /* line-height: 1.25; */
   text-transform: uppercase;
 }
 section.about h1 > span {
