@@ -38,15 +38,20 @@
 
   padding: 100px 0px;
 }
-.nav ul li a i {
+.nav ul li a svg {
   display: none;
 }
 @media screen and (max-width: 996px) {
-  .nav ul li a i {
+  .nav ul li a svg {
     display: block;
     margin: 20px 0px;
   }
   .nav ul li a span {
     display: none;
+  }
+  .nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

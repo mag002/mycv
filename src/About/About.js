@@ -1,11 +1,16 @@
 import React from "react";
 import propTypes from "prop-types";
 import aboutCss from "./About.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+library.add(fab, faCheckSquare, faCoffee);
 
 const SocialIcon = props => {
   return (
     <a href={props.link} className={aboutCss.socialIcon}>
-      <i className={"fa fa-" + props.type} />
+      <FontAwesomeIcon icon={["fab", props.type]} />
     </a>
   );
 };
