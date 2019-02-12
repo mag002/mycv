@@ -1,0 +1,13 @@
+.interest p {
+  font-size: 20px;
+  line-height: 50px;
+  color: #868e96 !important;
+}
+.interest h2 {
+  text-align: center;
+}
+.video {
+  justify-content: space-around;
+  display: flex;
+  padding: 20px;
+}

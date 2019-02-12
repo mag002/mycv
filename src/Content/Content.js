@@ -14,8 +14,11 @@ const content = props => {
         experience={props.state.experience}
       />
 
-      <Skills id={props.state.skills.title} />
-      <Interest id={props.state.interest.title} />
+      <Skills id={props.state.skills.title} skills={props.state.skills} />
+      <Interest
+        id={props.state.interest.title}
+        interest={props.state.interest}
+      />
     </section>
   );
 };

@@ -51,20 +51,32 @@ class App extends Component {
       title: "skills",
       main: {
         html: {
-          name: "html"
+          name: "html5"
         },
         css: {
-          name: "css"
+          name: "css3"
         },
         javascript: {
-          name: "javascript"
+          name: "js-square"
+        },
+        react: {
+          name: "react"
+        },
+        npm: {
+          name: "npm"
+        },
+        sass: {
+          name: "sass"
+        },
+        nodejs: {
+          name: "node-js"
         }
       },
       sub: {
         all:
-          "golang, c#, canvas, svg, photoshop, bootstrap, jquery, google cloud platform",
-        language: "english, japanese",
-        softskill: "public speaking, teamwork"
+          "Golang, C#, Canvas, SVG, Photoshop, Bootstrap, Jquery, Google Cloud Platform",
+        language: "English, Japanese",
+        softskill: "Public speaking, Teamwork"
       }
     },
     interest: {
