@@ -1,8 +1,10 @@
 section.about {
-  display: flex;
   flex-flow: column;
   justify-content: center;
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 section.about h4 {
   text-transform: uppercase;

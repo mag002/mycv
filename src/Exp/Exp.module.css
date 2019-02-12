@@ -1,6 +1,12 @@
+.experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .job {
   display: flex;
 }
+
 .job_date {
   min-width: 18rem;
   color: #204e5f;
